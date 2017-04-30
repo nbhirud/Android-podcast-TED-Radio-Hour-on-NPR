@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="@dimen/thumbnail_size"
+            android:layout_height="@dimen/thumbnail_size"
+            android:id="@+id/imageViewGridThumb"
+            android:layout_marginTop="20sp"
+            android:layout_marginLeft="20sp"
+            android:layout_marginRight="20sp"
+            android:contentDescription="GridThumbnail" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Small Text"
+            android:id="@+id/textViewGridTitle"
+            android:layout_below="@+id/imageViewGridThumb"
+            android:layout_alignLeft="@+id/imageViewGridThumb"
+            android:layout_alignStart="@+id/imageViewGridThumb" />
+
+        <ImageButton
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:id="@+id/imageButtonGridPlay"
+            android:layout_alignTop="@+id/imageViewGridThumb"
+            android:layout_alignLeft="@+id/imageViewGridThumb"
+            android:layout_alignStart="@+id/imageViewGridThumb"
+            android:src="@android:drawable/ic_media_play"
+            android:alpha=".5"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

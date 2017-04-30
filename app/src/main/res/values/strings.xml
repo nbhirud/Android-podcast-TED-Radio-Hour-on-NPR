@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">HW4</string>
+    <string name="Episode_Title_Label">EpisodeTitle</string>
+    <string name="PlayNow_Label">Play Now</string>
+    <string name="episodeimage">episodeImage</string>
+    <string name="playbutton">PlayButton</string>
+    <string name="list">List</string>
+    <string name="grid">Grid</string>
+    <string name="appTitleP">AppTitle</string>
+    <string name="pubLabel">Publication Date:</string>
+    <string name="DurationLabel">Duration:</string>
+    <string name="descLabel">Description:</string>
+</resources>
